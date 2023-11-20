@@ -1,6 +1,6 @@
 const { DisTube } = require('distube')
 const Discord = require('discord.js')
-const djstream = require('discord.js-song')
+const djstream = require('discord-volume')
 const client = new Discord.Client({
   intents: [
     Discord.GatewayIntentBits.Guilds,
