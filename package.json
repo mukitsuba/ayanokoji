@@ -1,0 +1,25 @@
+{
+  "name": "ayanokoji",
+  "version": "1.0.0",
+  "description": "stand alone bot which offers high quality music for everyone using multiple sources",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "discord",
+    "music",
+    "bot",
+    "discordmusicbot"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@distube/soundcloud": "^1.3.3",
+    "@distube/spotify": "^1.5.1",
+    "@distube/yt-dlp": "^1.1.3",
+    "discord.js": "^14.13.0",
+    "discord-volume": "1.0.1",
+    "distube": "^4.1.0"
+  }
+}
